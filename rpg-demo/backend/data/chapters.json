@@ -1,0 +1,10 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "titre": "Chapitre 1",
+      "lieu_principal": "Iron Forge",
+      "evenements": ["Rencontré Gorim le nain", "Décidé d'aider le village"]
+    }
+  ]
+}
