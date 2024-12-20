@@ -1,0 +1,9 @@
+{
+  "etat_joueur": {
+    "santé": 10,
+    "énergie": 15,
+    "mana": 20,
+    "inventaire": ["épée", "potion de soin"]
+  },
+  "historique": []
+}
