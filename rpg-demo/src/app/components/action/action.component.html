@@ -1,0 +1,30 @@
+<div class="action-container">
+    <h2>Effectuer une Action</h2>
+  
+    <!-- Champ d'entrée pour les actions -->
+    <div class="input-group">
+      <input
+        [(ngModel)]="action"
+        (keyup.enter)="sendAction()"
+        placeholder="Votre action ici..."
+        [disabled]="isLoading"
+      />
+      <button (click)="sendAction()" [disabled]="isLoading">Envoyer</button>
+    </div>
+  
+    <!-- Afficher la réponse du MJ -->
+    <div *ngIf="response" class="response">
+      <strong>Réponse du MJ :</strong> {{ response }}
+    </div>
+  
+    <!-- Afficher les messages d'erreur -->
+    <div *ngIf="errorMessage" class="error">
+      {{ errorMessage }}
+    </div>
+  
+    <!-- Afficher un indicateur de chargement -->
+    <div *ngIf="isLoading" class="loading">
+      En attente de la réponse du MJ...
+    </div>
+  </div>
+  

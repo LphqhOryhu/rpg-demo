@@ -1,0 +1,21 @@
+.history-container {
+    margin: 1em 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f4f4f4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    margin: 1em 0;
+  }
+  

@@ -1,0 +1,19 @@
+<div class="history-container">
+    <h2>Historique des Actions</h2>
+  
+    <!-- Afficher un message d'erreur si nécessaire -->
+    <div *ngIf="errorMessage" class="error">
+      {{ errorMessage }}
+    </div>
+  
+    <!-- Liste des événements historiques -->
+    <ul *ngIf="history.length > 0; else noHistory">
+      <li *ngFor="let event of history">{{ event }}</li>
+    </ul>
+  
+    <!-- Message si aucun historique n'est disponible -->
+    <ng-template #noHistory>
+      <p>Aucun historique disponible pour l’instant.</p>
+    </ng-template>
+  </div>
+  

@@ -1,0 +1,30 @@
+.action-container {
+    margin: 1em 0;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 0.5em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  
+  .response {
+    margin-top: 1em;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .error {
+    margin-top: 1em;
+    color: red;
+  }
+  
+  .loading {
+    margin-top: 1em;
+    font-style: italic;
+  }
+  
