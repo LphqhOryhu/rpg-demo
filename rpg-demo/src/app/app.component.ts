@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 
 import { ChatComponent } from './components/chat/chat.component';
+import { HistoryComponent } from './components/history/history.component';
+import { ActionComponent } from './components/action/action.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +16,9 @@ import { ChatComponent } from './components/chat/chat.component';
     CommonModule,
     FormsModule,
     HttpClientModule, // Vérifiez que ce module est bien ajouté ici
-    ChatComponent
+    ChatComponent,
+    HistoryComponent,
+    ActionComponent
   ]
 
 })
